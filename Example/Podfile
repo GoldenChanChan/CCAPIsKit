@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CCAPIsKit_Example' do
+  pod 'CCAPIsKit', :path => '../'
+
+  target 'CCAPIsKit_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
