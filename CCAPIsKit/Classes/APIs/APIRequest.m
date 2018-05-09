@@ -21,7 +21,7 @@
         [self apiRuquest];
     } else {
         // 不遵守这个protocol的就让他crash，防止派生类乱来。
-        NSAssert(NO, @"子类必须要实现APIManager这个protocol");
+        NSAssert(NO, @"子类必须要实现APIManager这个protocol11");
     }
     return self;
 }
