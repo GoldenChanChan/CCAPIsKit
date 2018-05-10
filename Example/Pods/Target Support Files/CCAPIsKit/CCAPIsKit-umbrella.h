@@ -15,6 +15,7 @@
 #import "APIResponseProtocol.h"
 #import "FFReformProtocol.h"
 #import "NetworkHelper.h"
+#import "Test1VC.h"
 
 FOUNDATION_EXPORT double CCAPIsKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char CCAPIsKitVersionString[];

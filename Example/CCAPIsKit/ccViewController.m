@@ -7,7 +7,7 @@
 //
 
 #import "ccViewController.h"
-
+#import "Test1VC.h"
 @interface ccViewController ()
 
 @end
@@ -18,6 +18,11 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+}
+
+- (IBAction)next:(UIButton *)sender {
+    Test1VC *vc = [[Test1VC alloc] init];
+    [self presentViewController:vc animated:YES completion:nil];
 }
 
 - (void)didReceiveMemoryWarning
