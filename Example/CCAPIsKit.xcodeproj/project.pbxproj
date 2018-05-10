@@ -24,12 +24,6 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		964F3CDF20A41B2F0073984C /* APIRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 964F3CD720A41B2F0073984C /* APIRequest.m */; };
-		964F3CE020A41B2F0073984C /* NetworkHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 964F3CD820A41B2F0073984C /* NetworkHelper.m */; };
-		964F3CE120A41B2F0073984C /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 964F3CDC20A41B2F0073984C /* .gitkeep */; };
-		964F3CE220A41B2F0073984C /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 964F3CDE20A41B2F0073984C /* .gitkeep */; };
-		964F3CE620A41B5F0073984C /* Test1VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 964F3CE420A41B5F0073984C /* Test1VC.m */; };
-		964F3CE720A41B5F0073984C /* Test1VC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 964F3CE520A41B5F0073984C /* Test1VC.xib */; };
 		D8A312C466F08A8BE7040FC9 /* Pods_CCAPIsKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EB11337C0E8EE5D9AABF36F /* Pods_CCAPIsKit_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -72,18 +66,6 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8EB11337C0E8EE5D9AABF36F /* Pods_CCAPIsKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CCAPIsKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		94AECFBD09F75912C40972F2 /* Pods-CCAPIsKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCAPIsKit_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-CCAPIsKit_Example/Pods-CCAPIsKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		964F3CD520A41B2F0073984C /* APIResponseProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIResponseProtocol.h; sourceTree = "<group>"; };
-		964F3CD620A41B2F0073984C /* FFReformProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFReformProtocol.h; sourceTree = "<group>"; };
-		964F3CD720A41B2F0073984C /* APIRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APIRequest.m; sourceTree = "<group>"; };
-		964F3CD820A41B2F0073984C /* NetworkHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkHelper.m; sourceTree = "<group>"; };
-		964F3CD920A41B2F0073984C /* APIRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIRequest.h; sourceTree = "<group>"; };
-		964F3CDA20A41B2F0073984C /* APIRequestProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIRequestProtocol.h; sourceTree = "<group>"; };
-		964F3CDB20A41B2F0073984C /* NetworkHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkHelper.h; sourceTree = "<group>"; };
-		964F3CDC20A41B2F0073984C /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
-		964F3CDE20A41B2F0073984C /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
-		964F3CE320A41B5F0073984C /* Test1VC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test1VC.h; sourceTree = "<group>"; };
-		964F3CE420A41B5F0073984C /* Test1VC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test1VC.m; sourceTree = "<group>"; };
-		964F3CE520A41B5F0073984C /* Test1VC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Test1VC.xib; sourceTree = "<group>"; };
 		99B126D9E224132DAC340C34 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		D0CBAC04EC639D0D901E4017 /* Pods-CCAPIsKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCAPIsKit_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CCAPIsKit_Tests/Pods-CCAPIsKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		F9D8AF0157D00D8AEE501819 /* Pods_CCAPIsKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CCAPIsKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -154,7 +136,6 @@
 		6003F593195388D20070C39A /* Example for CCAPIsKit */ = {
 			isa = PBXGroup;
 			children = (
-				964F3CD220A41B2F0073984C /* CCAPIsKit */,
 				6003F59C195388D20070C39A /* ccAppDelegate.h */,
 				6003F59D195388D20070C39A /* ccAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -217,50 +198,6 @@
 				81B79956B864C8B60D3B49FA /* Pods-CCAPIsKit_Tests.release.xcconfig */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		964F3CD220A41B2F0073984C /* CCAPIsKit */ = {
-			isa = PBXGroup;
-			children = (
-				964F3CD320A41B2F0073984C /* Classes */,
-				964F3CDD20A41B2F0073984C /* Assets */,
-			);
-			name = CCAPIsKit;
-			path = ../../CCAPIsKit;
-			sourceTree = "<group>";
-		};
-		964F3CD320A41B2F0073984C /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				964F3CD420A41B2F0073984C /* APIs */,
-				964F3CDC20A41B2F0073984C /* .gitkeep */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		964F3CD420A41B2F0073984C /* APIs */ = {
-			isa = PBXGroup;
-			children = (
-				964F3CD520A41B2F0073984C /* APIResponseProtocol.h */,
-				964F3CD620A41B2F0073984C /* FFReformProtocol.h */,
-				964F3CD720A41B2F0073984C /* APIRequest.m */,
-				964F3CD820A41B2F0073984C /* NetworkHelper.m */,
-				964F3CD920A41B2F0073984C /* APIRequest.h */,
-				964F3CDA20A41B2F0073984C /* APIRequestProtocol.h */,
-				964F3CDB20A41B2F0073984C /* NetworkHelper.h */,
-				964F3CE320A41B5F0073984C /* Test1VC.h */,
-				964F3CE420A41B5F0073984C /* Test1VC.m */,
-				964F3CE520A41B5F0073984C /* Test1VC.xib */,
-			);
-			path = APIs;
-			sourceTree = "<group>";
-		};
-		964F3CDD20A41B2F0073984C /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-				964F3CDE20A41B2F0073984C /* .gitkeep */,
-			);
-			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -348,9 +285,6 @@
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
-				964F3CE120A41B2F0073984C /* .gitkeep in Resources */,
-				964F3CE720A41B5F0073984C /* Test1VC.xib in Resources */,
-				964F3CE220A41B2F0073984C /* .gitkeep in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
@@ -484,12 +418,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				964F3CE620A41B5F0073984C /* Test1VC.m in Sources */,
 				6003F59E195388D20070C39A /* ccAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* ccViewController.m in Sources */,
-				964F3CDF20A41B2F0073984C /* APIRequest.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
-				964F3CE020A41B2F0073984C /* NetworkHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
